@@ -1,8 +1,8 @@
 class School
-  attr_accessor :school, :name
+  attr_accessor :school
 
-  def initialize(name="")
-    @name = name
+  def initialize(school="")
+    @school = school
   end
 
   def rooster
