@@ -1,5 +1,5 @@
 class School
-  attr_accessor :school :rooster
+  attr_accessor :school, :rooster
 
   def initialize(school="")
     @school = school
@@ -7,6 +7,6 @@ class School
   end
 
   def add_student(name, grade)
-    rooster[grade] << name
+    @rooster[grade] << name
   end
 end
