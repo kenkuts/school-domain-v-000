@@ -1,13 +1,13 @@
 class School
-  attr_accessor :school, :rooster
+  attr_accessor :school, :roster
 
   def initialize(school="")
     @school = school
-    @rooster = {}
+    @roster = {}
   end
 
   def add_student(name, grade)
-    @rooster[grade] = []
-    @rooster[grade] << name
+    @roster[grade] = []
+    @roster[grade] << name
   end
 end
