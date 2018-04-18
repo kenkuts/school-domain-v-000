@@ -7,6 +7,7 @@ class School
   end
 
   def add_student(name, grade)
+    @rooster[grade] = []
     @rooster[grade] << name
   end
 end
