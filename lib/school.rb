@@ -8,4 +8,8 @@ class School
   def rooster
     {}
   end
+
+  def add_student(name, grade)
+    rooster[grade] << name
+  end
 end
