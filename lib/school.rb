@@ -17,4 +17,7 @@ class School
     @roster[level]
   end
 
+  def sort
+    @roster.map! {|key, value| value.sort}
+    @roster
 end
